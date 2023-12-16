@@ -10,3 +10,8 @@
     npx ts-node index.ts
 
 ## Notes
+
+## References
+
+* [Advent of Code](https://adventofcode.com)
+* [Solution megathreads](https://www.reddit.com/r/adventofcode/search?q=flair_name%3A%22SOLUTION%20MEGATHREAD%22&restrict_sr=1)
