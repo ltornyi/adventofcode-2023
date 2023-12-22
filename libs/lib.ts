@@ -16,7 +16,7 @@ export const equalTest = (tstMsg: string, inp1: any, inp2: any) => {
   }
 }
 
-export const equalTestArray = (tstMsg: string, arr1: number[], arr2: any[]) => {
+export const equalTestArray = (tstMsg: string, arr1: any[], arr2: any[]) => {
   arr1.sort((a, b) => a - b);
   arr2.sort((a, b) => a - b);
   const isEqual = (JSON.stringify(arr1) === JSON.stringify(arr2));
