@@ -1,4 +1,4 @@
-import { lcm } from "../libs/lib";
+import { lcm } from "../libs/algos";
 
 export type Node = {
   nodeId: string,
