@@ -1,4 +1,4 @@
-import { lcm } from "../libs/algos";
+import { leastCommonMultiple } from "../libs/algos";
 
 export type Node = {
   nodeId: string,
@@ -98,5 +98,5 @@ export const answerPart2 = (input: string[]): number => {
   const map = parseInput(input);
   const startingNodeIds: string[] = startingNodeIdsForPart2(map);
   const pathLengths = calcPathlengthsForPart2(map, startingNodeIds);
-  return lcm(pathLengths);
+  return leastCommonMultiple(pathLengths);
 }
