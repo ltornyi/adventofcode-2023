@@ -11,6 +11,8 @@
 
 ## Notes
 
+* Day 8 part 2: a bit annoying. It's not explicit but the problem statement hints: for each starting point the path will have a full cycle after reaching a terminal point. So the problem really wants you to find the least common multiple of those cycle lengths.
+
 ## References
 
 * [Advent of Code](https://adventofcode.com)
